@@ -129,6 +129,4 @@ def run():
         else:
             st.warning("Please write Topic Name to Search🔍")
 
-
-    app.debug=True
-    app.run(host = '0.0.0.0', port =7000)
+run() 
